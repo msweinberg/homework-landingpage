@@ -1,0 +1,147 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack - applies to every element */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #f0efef;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+#benefts {
+  background-color: #f0efef;
+  color: #033048;
+  padding: 50px auto 20px 40px;
+  min-height: 300px;
+}
+
+header {
+  background-image: url("../images/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 400px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+h1{
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+  padding: 10px 10px 10px 50px;
+
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+h3{
+font-weight: 500;
+font-size: 20px;
+}
+
+#get-it {
+  font-weight: bolder;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  position: relative;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#main-p {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+
+#quote {
+  background-image: url("../images/testimonial_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 200px;
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: center;
+}
+
+#sign-up {
+  color: white;
+  font-weight: bolder;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #033048;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #121212;
+  font-weight: 500;
+  font-size: 9px;
+  color: white;
+  text-align: center;
+  min-height: 200px;
+}
+
+#small-logo {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  text-align: center;
+}
+
+#call-to-action {
+  background-color: #f9e42e;
+  min-height: 80px;
+}
